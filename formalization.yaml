@@ -1,8 +1,8 @@
 version: "v0.4"
 
 project:
-  name: "Vectored Logic"
-  description: "A Lean formalization of the core four-state rules of Vectored Logic: Pro-Active True, Retro-Active True, Emergent Paradox, and Static Absolute, together with vector inversion, collision, paradox containment, and absolute absorption."
+  name: "Vectored Logic: Four-State "
+  description: "A Lean 4 formalization of the core four-state rules of Vectored Logic: Pro-Active True, Retro-Active True, Emergent Paradox, and Static Absolute, together with vector inversion, collision, paradox containment, and absolute absorption."
   authors:
     - "Nishant Gautam"
   license: "Apache-2.0"
@@ -10,15 +10,18 @@ project:
     - "Nishant Gautam"
 
 classification:
-  arxiv: ["math.LO"]
-  msc2020: ["03B50", "03B52"]
+  arxiv:
+    - "math.LO"
+  msc2020:
+    - "03B50"
+    - "03B52"
 
 sources:
   - title: "Twisted Horizon Mathematics: A Complete Conceptual Guide to Vectored Logic & Dynamic State Mechanics"
     file: "README.md"
     relationship: "independently-proves"
-    note: "The Lean development formalizes the four-state rules supplied by the author in the accompanying informal manuscript.
-    
+    note: "The Lean development formalizes the four-state rules supplied by the author in the accompanying informal manuscript."
+
 status:
   scope: "The formalization covers the four intentional truth states, vector inversion, the complete 4-by-4 collision table, closure, inversion involution, commutativity and idempotence of collision, directional-opposition collision, paradox containment under collision, and Static Absolute absorption."
   sorry_count: 0
@@ -27,7 +30,7 @@ status:
 
 automation:
   methods:
-    - method: "manual"
+    - "manual"
   framework: "Lean 4 with Mathlib; Palomar Comparator format"
   tool_setup: "Formalization prepared from the author's supplied Vectored Logic rules; proofs use case analysis and exact definitional reduction."
 
@@ -38,7 +41,7 @@ review:
   status: "self-assessed"
   reviewers: []
   notes: "The statement surface was checked against the author's supplied four-state definitions and collision/inversion rules. The proof development contains no custom axioms or sorry-based proof declarations in the Solution."
-  
+
 alignment:
   namespace: "VectoredLogic"
   statements:
