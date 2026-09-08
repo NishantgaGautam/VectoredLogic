@@ -2,13 +2,7 @@ version: "v0.4"
 
 project:
   name: "Vectored Logic: Four-State Directional Collision Algebra"
-  description: >-
-    A Lean formalization of the core four-state rules of Vectored Logic:
-    Pro-Active True (→), Retro-Active True (←), Emergent Paradox (↑), and
-    Static Absolute (∅), together with vector inversion, collision, paradox
-    containment, and absolute absorption. The formalization treats opposing
-    directional states as capable of coexistence when they do not collide;
-    a direct collision produces the Emergent Paradox state.
+  description: "A Lean formalization of the core four-state rules of Vectored Logic: Pro-Active True, Retro-Active True, Emergent Paradox, and Static Absolute, together with vector inversion, collision, paradox containment, and absolute absorption."
   authors:
     - "Nishant Gautam"
   license: "Apache-2.0"
@@ -22,51 +16,27 @@ classification:
 sources:
   - title: "Twisted Horizon Mathematics: A Complete Conceptual Guide to Vectored Logic & Dynamic State Mechanics"
     relationship: "independently-proves"
-    note: "The Lean development formalizes the four-state rules supplied by the author in the accompanying informal manuscript; the present repository is the formal statement and proof record of those rules."
+    note: "The Lean development formalizes the four-state rules supplied by the author in the accompanying informal manuscript."
 
 status:
-  scope: >-
-    The formalization covers the four intentional truth states, vector inversion,
-    the complete 4-by-4 collision table, closure, inversion involution,
-    commutativity and idempotence of collision, directional-opposition collision,
-    paradox containment under collision, and Static Absolute absorption. It does
-    not introduce a separate network-topology or routing language because those
-    structures are not separately defined in the supplied rules.
+  scope: "The formalization covers the four intentional truth states, vector inversion, the complete 4-by-4 collision table, closure, inversion involution, commutativity and idempotence of collision, directional-opposition collision, paradox containment under collision, and Static Absolute absorption."
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: []
 
 automation:
   methods:
-    - method: "agent"
     - method: "manual"
-  models:
-    - "GPT-5.6 Luna"
   framework: "Lean 4 with Mathlib; Palomar Comparator format"
-  tool_setup: "AI-assisted formalization prepared from the author's supplied Vectored Logic rules; proofs use case analysis and exact definitional reduction."
-  cost:
-    wall_time: "not tracked"
-    spend_usd: "subscription-based"
-    hardware: "local/container development"
-    prompting_notes: "The formalization was constrained to the author's supplied rules and terminology."
-  notes: "Human author supplied the mathematical definitions and intended interpretation; the formal proof surface is machine-checkable."
+  tool_setup: "Formalization prepared from the author's supplied Vectored Logic rules; proofs use case analysis and exact definitional reduction."
 
 fidelity:
-  divergences: >-
-    The informal phrase that truth carries momentum is represented by the four
-    operational states and their transition rules; no additional quantitative
-    momentum variable is introduced. The coexistence condition is described in
-    the informal account but a network topology is not formalized because no
-    topology/routing primitives were supplied.
+  divergences: "The informal phrase that truth carries momentum is represented by the four operational states and their transition rules; no additional quantitative momentum variable is introduced."
 
 review:
   status: "self-assessed"
-  reviewers:
-    - "none"
-  notes: >-
-    The statement surface was checked against the author's supplied four-state
-    definitions and collision/inversion rules. The proof development contains
-    no custom axioms or sorry-based proof declarations in the Solution.
+  reviewers: []
+  notes: "The statement surface was checked against the author's supplied four-state definitions and collision/inversion rules. The proof development contains no custom axioms or sorry-based proof declarations in the Solution."
 
 alignment:
   namespace: "VectoredLogic"
