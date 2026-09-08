@@ -30,7 +30,7 @@ status:
 
 automation:
   methods:
-    - "manual"
+    - method: "manual"
   framework: "Lean 4 with Mathlib; Palomar Comparator format"
   tool_setup: "Formalization prepared from the author's supplied Vectored Logic rules; proofs use case analysis and exact definitional reduction."
 
