@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "VectoredLogic.invert_involutive",
+    "VectoredLogic.collide_commutative",
+    "VectoredLogic.collide_idempotent",
+    "VectoredLogic.collision_closed",
+    "VectoredLogic.opposing_collision_produces_paradox",
+    "VectoredLogic.paradox_absorbs_active",
+    "VectoredLogic.absolute_absorbs",
+    "VectoredLogic.absolute_is_absorbing"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}
