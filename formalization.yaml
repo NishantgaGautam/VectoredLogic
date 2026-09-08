@@ -15,9 +15,10 @@ classification:
 
 sources:
   - title: "Twisted Horizon Mathematics: A Complete Conceptual Guide to Vectored Logic & Dynamic State Mechanics"
+    file: "README.md"
     relationship: "independently-proves"
-    note: "The Lean development formalizes the four-state rules supplied by the author in the accompanying informal manuscript."
-
+    note: "The Lean development formalizes the four-state rules supplied by the author in the accompanying informal manuscript.
+    
 status:
   scope: "The formalization covers the four intentional truth states, vector inversion, the complete 4-by-4 collision table, closure, inversion involution, commutativity and idempotence of collision, directional-opposition collision, paradox containment under collision, and Static Absolute absorption."
   sorry_count: 0
@@ -37,18 +38,18 @@ review:
   status: "self-assessed"
   reviewers: []
   notes: "The statement surface was checked against the author's supplied four-state definitions and collision/inversion rules. The proof development contains no custom axioms or sorry-based proof declarations in the Solution."
-
+  
 alignment:
   namespace: "VectoredLogic"
   statements:
     - source: "Four Fundamental States and Vector Inversion"
       lean: "VectoredLogic.State"
-      module: "VectoredLogic"
+      module: "Solution"
       status: "proved"
       note: "Defines the four states and their inversion exactly as supplied."
     - source: "Collision Operator and Paradox/Absorption Laws"
       lean: "VectoredLogic.collide"
-      module: "VectoredLogic"
+      module: "Solution"
       status: "proved"
       note: "Defines the complete 4-by-4 collision table and proves its stated core properties."
 
