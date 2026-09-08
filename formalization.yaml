@@ -1,7 +1,7 @@
 version: "v0.4"
 
 project:
-  name: "Vectored Logic: Four-State Directional Collision Algebra"
+  name: "Vectored Logic"
   description: "A Lean formalization of the core four-state rules of Vectored Logic: Pro-Active True, Retro-Active True, Emergent Paradox, and Static Absolute, together with vector inversion, collision, paradox containment, and absolute absorption."
   authors:
     - "Nishant Gautam"
